@@ -1,0 +1,26 @@
+
+.select {
+    appearance: none;
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+    padding: 5px;
+
+    width: 140px;
+
+    background-color: #fff;
+
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+
+    margin-bottom: 10px;
+
+    outline: none;
+}
+
+.option {
+    font-size: 18px;
+    font-weight: bold;
+}

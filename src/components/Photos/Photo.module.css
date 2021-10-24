@@ -1,0 +1,49 @@
+.photoItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+
+    padding: 10px 2px 10px 2px;
+    border: 1px solid darkturquoise;
+
+    text-align: center;
+    margin-bottom: 10px;
+
+    background: azure;
+
+    font-family: "Gill Sans", sans-serif;
+}
+
+.photoItem > img {
+    width: 150px;
+
+    margin: 0 auto;
+
+    box-shadow: 3px 3px 3px #777;
+}
+
+.photoTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.photoContent {
+    font-size: 15px;
+}
+
+.removeBtn {
+    width: 150px;
+    height: 25px;
+
+    color: #fff;
+    background: lightsteelblue;
+    text-align: center;
+
+    border: none;
+    border-radius: 5px;
+
+    margin: 0 auto;
+
+    cursor: pointer;
+}
